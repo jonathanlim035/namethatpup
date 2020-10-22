@@ -3,18 +3,38 @@
   flex-wrap: wrap;
 }
 
+body {
+  margin: auto;
+  width: 50%;
+  background-color: rgb(112, 112, 112);
+  font-size: 50px;
+}
+
+.title {
+  font-family: 'Staatliches', cursive;
+  margin: auto;
+  text-align: center;
+}
+
 .pupEntry {
   height: 50%;
   width: 50%;
-  border: 1px solid rgb(138, 135, 135);
+  font-family: sans-serif;
+  border: 1px solid rgb(204, 199, 199);
   border-radius: 15px;
   padding: 10px;
   margin: 5px;
-  min-width: fit-content;
+  min-width: 100%;
+  text-align: center;
+  font-size: 0.5em;
+}
+
+.input {
+  width: 45%;
 }
 
 .pupEntry img {
-  max-width: 500px;
+  max-width: 80%;
   max-height: fit-content;
   display: table;
   margin-left: auto;
